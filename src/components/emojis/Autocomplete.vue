@@ -2,7 +2,7 @@
 <script>
 import { defineComponent } from 'vue'
 
-import clickOutside from '@/directives/click-outside.js'
+import clickOutside from '../../directives/click-outside.js'
 export default defineComponent({
   props: {
     value: {
