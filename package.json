@@ -33,7 +33,7 @@
     "postcss-nested": "^4.1.2",
     "@fullhuman/postcss-purgecss": "^1.2.0"
   },
-  "main": "./dist/discordpicker.common.js",
+  "main": "./src/main.js",
   "files": [
     "dist/*",
     "src/*",
