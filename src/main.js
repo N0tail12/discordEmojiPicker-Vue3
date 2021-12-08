@@ -1,1 +1,1 @@
-module.exports = require('./componets/DiscordPicker.vue')
+module.exports = require('./components/DiscordPicker.vue')
