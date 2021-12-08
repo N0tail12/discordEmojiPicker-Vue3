@@ -66,13 +66,13 @@
 <script>
 import { defineComponent } from "vue";
 
-import clickOutside from "./directives/click-outside.js";
-import emojis from "./assets/emojis.json";
-import EmojiPicker from "./components/emojis/EmojiPicker.vue";
+import clickOutside from "../directives/click-outside.js";
+import emojis from "../assets/emojis.json";
+import EmojiPicker from "../components/emojis/EmojiPicker.vue";
 
-import EmojiButton from "./components/emojis/Button.vue";
+import EmojiButton from "../components/emojis/Button.vue";
 
-import Autocomplete from "./components/emojis/Autocomplete.vue";
+import Autocomplete from "../components/emojis/Autocomplete.vue";
 
 export default defineComponent({
   components: { EmojiButton, Autocomplete, EmojiPicker },
