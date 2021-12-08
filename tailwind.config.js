@@ -1,4 +1,5 @@
 module.exports = {
+  important: '.vue3-emojipicker',
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
